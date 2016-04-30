@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328/PATH/value=/usr/local/bin\:/usr/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328/appendContributed=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741/PATH/value=/usr/local/bin\:/usr/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741/appendContributed=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013/PATH/value=/usr/local/bin\:/usr/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/local/linaro/arm-linux-gnueabihf-raspbian/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013/appendContributed=true
