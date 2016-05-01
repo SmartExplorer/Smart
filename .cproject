@@ -104,6 +104,7 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.351627994" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.1421781796" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BOOST_ROOT}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std.1091534065" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std.cpp11" valueType="enumerated"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1171438927" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
@@ -160,6 +161,7 @@
 							<tool command="g++-5" id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1569383119" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<option id="gnu.cpp.compiler.option.include.paths.1036051794" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BOOST_ROOT}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.dialect.std.646184325" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.optimization.level.452076386" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
@@ -301,6 +303,7 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.723005628" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.1267475292" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BOOST_ROOT}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std.1505253097" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.std.cpp11" valueType="enumerated"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.823447846" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
@@ -338,15 +341,6 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="Smart.null.224168196" name="Smart"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1626275506;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.351627994;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1171438927">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1626275506;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.114516281;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.61487355">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="X86">
@@ -361,5 +355,26 @@
 		<configuration configurationName="Release">
 			<resource resourceType="PROJECT" workspacePath="/Smart"/>
 		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1626275506;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.351627994;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1171438927">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741.;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.723005628;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.823447846">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1569383119;cdt.managedbuild.tool.gnu.cpp.compiler.input.1490817690">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1425727328.;cdt.managedbuild.tool.gnu.c.compiler.base.553019440;cdt.managedbuild.tool.gnu.c.compiler.input.416829597">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.1626275506;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.114516281;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.61487355">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2016391013.368791741.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.490671579;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1611051639">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>

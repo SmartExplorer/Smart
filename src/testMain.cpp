@@ -6,15 +6,14 @@
  */
 #include <iostream>
 #include <vector>
-
+#include <boost/lambda/lambda.hpp>
 using namespace std;
 
 int main(void) {
-	double b = 1.111;
-	string a = "aaaaaaa";
-	const char* c = "abcde";
-	cout << a;
-	return 0;
+    using namespace boost::lambda;
+    typedef std::istream_iterator<int> in;
+    std::for_each(
+        in(std::cin), in(), std::cout << (_1 * 3) << " " );
 }
 
 
