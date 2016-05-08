@@ -4,16 +4,17 @@
  *  Created on: 30 Apr 2016
  *      Author: Kiljaeden
  */
+#include <sys/types.h>
+#include <unistd.h>
 #include <iostream>
 #include <vector>
-#include <boost/lambda/lambda.hpp>
+#include <IRController.h>
 using namespace std;
 
 int main(void) {
-    using namespace boost::lambda;
-    typedef std::istream_iterator<int> in;
-    std::for_each(
-        in(std::cin), in(), std::cout << (_1 * 3) << " " );
+	IRController ir;
+	ir.readSchema();
+	ir.emitSignal();
 }
 
 
